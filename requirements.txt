@@ -1,0 +1,6 @@
+jupyter-book
+myst-nb
+numpy
+matplotlib
+scipy
+seaborn

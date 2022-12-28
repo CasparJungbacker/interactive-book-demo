@@ -1,0 +1,34 @@
+################################################################################
+# General settings
+title: Jupyter Book demo
+author: the MUDE Team
+logo: _static/MUDE_Logo-small.png
+
+repository:
+  url: https://github.com/CasparJungbacker/interactive-book-demo
+  path_to_book: demo/
+  branch: main
+
+################################################################################
+# Notebook execution on compiling
+execute:
+  execute_notebooks: auto
+  only_build_toc_files: true
+  timeout: 60 
+  allow_errors: true
+  exclude_patterns:
+  - '*student.ipynb'
+
+################################################################################
+# Launch buttons
+launch_buttons:
+  thebe: true
+
+################################################################################
+# Sphinx settings
+sphinx:
+  config:
+    # Bibliography style
+    bibtex_reference_style: author_year
+    # Use newer version of Mathjax for latex equation formatting
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
