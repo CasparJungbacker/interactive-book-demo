@@ -1,7 +1,5 @@
 format: jb-book
-root: demo.ipynb
+root: intro.md
 
-#parts:
-#  - caption: Test
-#    chapters:
-#    - file: demo.ipynb
+chapters:
+  - file: demo.ipynb
