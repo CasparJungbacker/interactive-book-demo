@@ -54,4 +54,4 @@ jobs:
       - name: GitHub Pages actions
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: book/_build/html/
+          folder: demo/_build/html/
