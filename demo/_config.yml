@@ -22,6 +22,7 @@ execute:
 ################################################################################
 # Launch buttons
 launch_buttons:
+  jupyterhub_url: https://jupyter.lisa.surfsara.nl/jhltud001
   thebe: true
 
 ################################################################################
